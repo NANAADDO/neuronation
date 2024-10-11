@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/appProject/vendor/composer" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/appProject/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/appProject/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/appProject/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/appProject/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/appProject/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/type-info" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/ecommerceApp/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>
