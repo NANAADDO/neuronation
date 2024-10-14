@@ -45,6 +45,9 @@ Contents
 #### Testing Tool
 * Postman 
 
+## DATABASE SCHEMA
+![Diagram](https://github.com/NANAADDO/neuronation/blob/master/db%20schema.png)
+
 
 ##### Token Generation
 
@@ -56,13 +59,18 @@ Contents
 * password:Elizabeth.1995
 * Local Env. Url http://0.0.0.0:5000/
 
-## Installation & TESTING
+## AWS & Local Installation TESTING
 
-##### NB ON AWS DEPLOYED TEST INSTANCE
- *You can test the endpoints directly from an aws instance without stress
+### 1. AWS DEPLOYED TEST INSTANCE
+*You can test the endpoints directly from aws instance without stress
+#### Download JSON File
+
+[Download API Postman Collection](https://raw.githubusercontent.com/NANAADDO/neuronation/master/ApispostmanTest.postman_collection.json)
 
 
 ##### NB 
+
+### 2. LOCAL ENVIRONMENT SETUP
 * Make sure you have docker and docker-compose installed on your local environment.
 * All local Env. commands are executed on terminal
 
