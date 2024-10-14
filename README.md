@@ -192,7 +192,7 @@ Endpoint:"http://35.158.204.40/api/auth/login"
 
 
 ```shell
-http verb:"GET"
+http verb:"POST"
 
  headers:{
  Accept:application/json
