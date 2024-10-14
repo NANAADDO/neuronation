@@ -23,10 +23,15 @@ $app = new Laravel\Lumen\Application(
     dirname(__DIR__)
 );
 
-// $app->withFacades();
+$app->withFacades();
 
-// $app->withEloquent();
+$app->withEloquent();
 
+$app->configure('jwt');
+
+$app->configure('auth');
+
+$app->configure('database');
 /*
 |--------------------------------------------------------------------------
 | Register Container Bindings
@@ -47,6 +52,7 @@ $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
     App\Console\Kernel::class
 );
+$app->singleton(Illuminate\Contracts\Console\Kernel::class, App\Console\Kernel::class);
 
 /*
 |--------------------------------------------------------------------------
@@ -72,6 +78,10 @@ $app->configure('app');
 |
 */
 
+
+$app->routeMiddleware([
+    'jwt.auth' => App\Http\Middleware\JwtMiddleware::class,
+]);
 // $app->middleware([
 //     App\Http\Middleware\ExampleMiddleware::class
 // ]);
@@ -94,7 +104,11 @@ $app->configure('app');
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
-
+$app->register(Illuminate\Redis\RedisServiceProvider::class);
+$app->register(Illuminate\Filesystem\FilesystemServiceProvider::class);
+$app->register(Laravel\Lumen\Console\ConsoleServiceProvider::class);
+$app->register(Tymon\JWTAuth\Providers\LumenServiceProvider::class);
+$app->register(Illuminate\Cache\CacheServiceProvider::class);
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes

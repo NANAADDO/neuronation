@@ -16,3 +16,15 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->group(['prefix' => 'api'], function () use ($router) {
+    $router->get('api/documentation', 'SwaggerController@index');
+    $router->post('auth/login',  ['uses' => 'AuthController@authenticateUser']);
+$router->group(['middleware' => 'jwt.auth'], function() use ($router) {
+    $router->get('status',  ['uses' => 'StatusController@index']);
+    $router->get('users/{userID}/session/history',  ['uses' => 'SessionController@getUserSessionHistoryWithScore']);
+    $router->get('users/{userID}/latest-session-category',  ['uses' => 'SessionController@getUserLastestSessionHistoryWithCategory']);
+
+
+});
+});

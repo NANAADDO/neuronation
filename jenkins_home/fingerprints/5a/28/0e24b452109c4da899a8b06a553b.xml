@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-05-15 03:59:00.904 UTC</timestamp>
+  <md5sum>5a280e24b452109c4da899a8b06a553b</md5sum>
+  <fileName>Credential id=mysqlPassword name=mysqlPassword</fileName>
+  <usages>
+    <entry>
+      <string>AWS-S3-Database-Backup</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-05-15 03:59:00.964 UTC</timestamp>
+  <md5sum>3075eaab629db3e154878698e8d1fb67</md5sum>
+  <fileName>Credential id=awsSecretKey name=awsSecretKey</fileName>
+  <usages>
+    <entry>
+      <string>AWS-S3-Database-Backup</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

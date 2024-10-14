@@ -1,0 +1,8 @@
+Started by user [8mha:////4NyF0de5xDq/VwJry495EYCWleS4lAa9/lmqeMz7MEqkAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYB/dLi1CL94sTc0tSc+JTUMgAJzKjtxQAAAA==[0mSamuel Ntow
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/AWS-S3-Database-Backup
+[AWS-S3-Database-Backup] $ /bin/sh -xe /tmp/jenkins10152544597959007535.sh
++ /tmp/db-backup-s3.sh thinkDB **** thinknsurance **** jenkins-mysql-backup-grameen ****
+Uploading your db-03-59-01.sql backup
+Completed 10.4 KiB/10.4 KiB (3.7 KiB/s) with 1 file(s) remainingupload: ../../../../tmp/db-03-59-01.sql to s3://jenkins-mysql-backup-grameen/db-03-59-01.sql
+Finished: SUCCESS
