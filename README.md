@@ -54,9 +54,12 @@ Contents
 ## Installation
 
 ##### NB
+ *You can test the endpoints directly from an  aws instance without stress
 * Make sure you have docker and docker-compose installed on your local environment.
-* All commands are executed on terminal
+* All local Env. commands are executed on terminal
 
+
+## Local Env Test
 #### Step 1:
 
 Clone code repository to your local environment
@@ -79,39 +82,30 @@ cd neuronation
 The Build process contains two bash script for different containers
 
 ### Method 1
+This bash script build and start the docker containers with no jenkins image which uses the docker-compose.yml file
+
+```shell
+*Execute the shell script with the command below 
+
+ ./build-containers.sh
+```
+
+### Method 2
 This shell script runs  the bash script with jenkins in the docker-compose2.yml file.
 This build contains the automation tool for s3 database backup and for CI/CD pipeline
 
 ```shell
-*Append executable permissions to script
+*Execute the shell script with the command below 
 
 sudo chmod +x jenkins-script/db-backup-s3.sh
 
 sudo chmod +x build-containers_with_jenkins.sh
 ```
 
-
 ```shell
 **Run the shell script to start the docker build process
 
  sudo ./build-containers_with_jenkins.sh
-```
-
-
-### Method 2
-This bash script build and start the docker containers with no jenkins image which uses the docker-compose.yml file
-
-```shell
-*Append executable permissions to script
-
-sudo chmod +x build-containers.sh
-```
-
-
-```shell
-**Run the shell script to start the docker build process
-
- sudo ./build-containers.sh
 ```
 ### Shell script  execute below commands
 
@@ -150,40 +144,46 @@ docker exec -t $app_path bash  -c  "${app_directory}; composer dump-autoload;"
 ```
 ### Step 4:
 
-* docker by default serves all local containers  on [http://0.0.0.0/api/routename](http://0.0.0.0).
-* docker deployed on AWS serves all API endpoint on   [http://35.158.204.40/](http://35.158.204.40/).
+* docker by default serves all local containers  on [http://0.0.0.0/api/routename](http://0.0.0.0/api).
+* docker deployed on AWS serves all API endpoint on   [http://35.158.204.40/api/routename](http://35.158.204.40/api).
 
 #
 ## Coding Task Details
 
 #### RUN PHP UNIT:
 ```shell
-**Run the shell script
+**Run the shell script with the following command
 
- sudo ./unit-test.sh
+ ./unit-test.sh
  ```
 
 
 #### NB
 All  Restful Apis  where designed  and returns response  in json
 
-
-
 *Postman
 ### Token Generation EndPoint:
 
 ##### End Point
-*Endpoint:
-"http://0.0.0.0/api/api/auth/login"
 
 *AWS Instance
 
 Endpoint:"http://35.158.204.40/api/auth/login"
 
-http verb:"GET"
+
+*Local Endpoint:
+"http://0.0.0.0/api/api/auth/login"
+
 
 ```shell
+http verb:"GET"
+
+ headers:{
+ Accept:application/json
+ }
+
 * Body
+
 {
 "username":"brainy_samuel",
 "password":"password.123"
@@ -191,14 +191,9 @@ http verb:"GET"
     
 }
 
- headers:{
- Accept:application/json
- }
  
-
 ```
 *Sample Success response
-
 ```shell
 {
     "data": {
@@ -222,8 +217,9 @@ HTTP VERB:"GET"
 *Endpoint:
 "http://0.0.0.0/api/users/1/session/history"
 
+
 *AWS Instance
-Endpoint:"http://35.158.204.40/users/1/session/history"
+Endpoint:"http://35.158.204.40/api/users/1/session/history"
 
 payload={
     
@@ -307,7 +303,7 @@ HTTP VERB:"GET"
 "http://0.0.0.0/api/users/1/latest-session-category"
 
 *AWS Instance
-Endpoint:"http://35.158.204.40/users/1/latest-session-category"
+Endpoint:"http://35.158.204.40/api/users/1/latest-session-category"
 
 payload={
     
