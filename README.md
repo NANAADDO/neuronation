@@ -19,14 +19,17 @@ Contents
 * framework:Lumen:10
 * Database:Mysql:5.7
 *  Cache:Redis
+* 
 ##### Code Architecture
 * Patten:Solid
 * framework:Repository
 * Authentication:JWT Token
+* 
 ##### DevOps
 * Docker for containerization
 * Docker compose for cluster Management
 * Jenkins for Automation
+* 
 ##### Cloud
 * AWS Litesail instance for Deployment
 * AWS S3 bucket for Database backup storage
@@ -39,6 +42,8 @@ Contents
 * ADD SWAGGER FOR DOCUMENTATION
 * CODE LINTING
 
+#### Testing Tool
+* Postman 
 
 
 ##### Token Generation
@@ -51,10 +56,13 @@ Contents
 * password:Elizabeth.1995
 * Local Env. Url http://0.0.0.0:5000/
 
-## Installation
+## Installation & TESTING
 
-##### NB
- *You can test the endpoints directly from an  aws instance without stress
+##### NB ON AWS DEPLOYED TEST INSTANCE
+ *You can test the endpoints directly from an aws instance without stress
+
+
+##### NB 
 * Make sure you have docker and docker-compose installed on your local environment.
 * All local Env. commands are executed on terminal
 

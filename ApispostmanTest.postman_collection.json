@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "e63af6e9-af01-4762-97e5-6e31935d1c8a",
+		"name": "ApispostmanTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22397195"
+	},
+	"item": [
+		{
+			"name": "http://35.158.204.40/api/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"brainy_samuel\",\n    \"password\":\"password.123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://35.158.204.40/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"35",
+						"158",
+						"204",
+						"40"
+					],
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://35.158.204.40/api/users/1/session/history",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMC4wLjAuMC9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTcyODg1OTEzMiwiZXhwIjoxNzI4ODYyNzMyLCJuYmYiOjE3Mjg4NTkxMzIsImp0aSI6IkI0eURVTjZLYnBOdHRpZksiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.asOhx52oJqyrNWZaCHVx0jHly-AQ3wY1z4xPxMFm2ks",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"brainy_samuel\",\n    \"password\":\"password.123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://35.158.204.40/api/users/1/session/history",
+					"protocol": "http",
+					"host": [
+						"35",
+						"158",
+						"204",
+						"40"
+					],
+					"path": [
+						"api",
+						"users",
+						"1",
+						"session",
+						"history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://35.158.204.40/users/1/latest-session-category",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMC4wLjAuMC9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTcyODg3MjE4OCwiZXhwIjoxNzI4ODc1Nzg4LCJuYmYiOjE3Mjg4NzIxODgsImp0aSI6ImRPOGdleWtDRVNGaW1kbksiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.mhYaT4SepZMr5Mk9BwSoJ540qy4-752vENRr4hXTk2Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"brainy_samuel\",\n    \"password\":\"password.123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://35.158.204.40/users/1/latest-session-category",
+					"protocol": "http",
+					"host": [
+						"35",
+						"158",
+						"204",
+						"40"
+					],
+					"path": [
+						"users",
+						"1",
+						"latest-session-category"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
