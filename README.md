@@ -62,25 +62,10 @@ Contents
 Clone code repository to your local environment
 
 ```shell
-git clone "Repository URL"
+git clone https://github.com/NANAADDO/neuronation.git
 ```
+
 #### Step 2:
-
-Grant the clone folder permissions
-
-* Get the system user name
-
-```shell
-sudo whoami
-```
-
-Grant the clone folder permissions
-```shell
-sudo chown -R current_username samuel_ntow/
-```
-
-
-#### Step 3:
 
 Change directory into the clone repository folder
 
@@ -88,7 +73,7 @@ Change directory into the clone repository folder
 cd neuronation
 ```
 
-#### Step 4:
+#### Step 3:
 
 
 The Build process contains two bash script for different containers
@@ -163,7 +148,7 @@ docker exec -t $app_path bash  -c  "${app_directory}; composer dump-autoload;"
 
 
 ```
-### Step 5:
+### Step 4:
 
 * docker by default serves all local containers  on [http://0.0.0.0/api/routename](http://0.0.0.0).
 * docker deployed on AWS serves all API endpoint on   [http://35.158.204.40/](http://35.158.204.40/).
@@ -312,7 +297,7 @@ payload={
 
 
 
-### Api 1: users/1/Latest-Session-Category:
+### Api 2: users/1/Latest-Session-Category:
 
 ```shell
 HTTP VERB:"GET"

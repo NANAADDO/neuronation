@@ -21,6 +21,7 @@ return [
         ],
 
     ],
+    'migrations' => 'migrations',
     'redis' => [
         'client' => 'predis',
         'default' => [
